@@ -1,0 +1,70 @@
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #E1E8ED;
+  }
+  
+  /* Introduction section styles */
+  #intro {
+    background-color: #000;
+    color: white;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-top: 0;
+  }
+  
+  span{
+	  font-family: cursive; 
+	  color:#E6DBAC;
+  }
+
+  .btn-group {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .btn-group .button {
+    position: relative;
+	
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 120%;
+    margin: 0 10px;
+    background: #b284be;
+    border: 2px solid #b284be;
+    border-radius: 8px;
+    font-size: 19px;
+    color: #b284be;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    z-index: 1;
+    overflow: hidden;
+  }
+  
+  .btn-group .button:hover {
+    color: #b284be;
+  }
+  
+  .btn-group .button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #000;
+    z-index: -1;
+    transition: .5s;
+  }
+  
+  .btn-group .button:hover::before {
+    width: 100%;
+  }

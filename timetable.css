@@ -1,0 +1,54 @@
+body {
+    font-family: Gill Sans;
+    background-color: #E1E8ED;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  table {
+    width: 1000px;
+    height: 540px;
+    max-width: 1200px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+  }
+  
+  th, td {
+    border: 1px solid #727171;
+    padding: 8px;
+    text-align: center;
+
+  }
+  
+  th {
+    background-color: #F8F8F8;
+    font-size: 25px;
+  }
+  
+  a {
+    color: #1DA1F2;
+    text-decoration: none;
+  }
+  
+ 
+  @media (max-width: 767px) {
+    table {
+      font-size:16px;
+    }
+
+    th, td {
+      padding: 5px;
+      font-size: 14px;
+    }
+  
+    th {
+      font-size: 16px;
+    }
+  }
+    
